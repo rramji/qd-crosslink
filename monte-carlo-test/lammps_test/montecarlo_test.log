@@ -1,0 +1,379 @@
+LAMMPS (3 Nov 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+units                real
+atom_style           full
+boundary             p p p
+dielectric           1
+special_bonds        lj/coul 0.0 0.0 1.0
+
+pair_style           lj/charmm/coul/long/opt 9 10.00000
+bond_style           harmonic
+angle_style          harmonic
+dihedral_style       harmonic
+improper_style       umbrella
+kspace_style         pppm 0.0001
+
+read_data            data.oleic_xligand.test
+Reading data file ...
+  orthogonal box = (0 0 0) to (60 60 60)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  122 atoms
+  scanning bonds ...
+  4 = max bonds/atom
+  scanning angles ...
+  6 = max angles/atom
+  scanning dihedrals ...
+  15 = max dihedrals/atom
+  scanning impropers ...
+  3 = max impropers/atom
+  reading bonds ...
+  123 bonds
+  reading angles ...
+  228 angles
+  reading dihedrals ...
+  329 dihedrals
+  reading impropers ...
+  48 impropers
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        0        1       
+  special bond factors coul:  0        0        1       
+     4 = max # of 1-2 neighbors
+     8 = max # of 1-3 neighbors
+    11 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+  read_data CPU = 0.004 seconds
+
+
+
+pair_modify          mix geometric
+neighbor             2.0 multi
+neigh_modify         every 2 delay 4 check yes
+thermo_style         multi
+thermo_modify        line multi format float %14.6f flush yes
+variable             input string in.oleic_xligand.test
+variable             sname string oleic_xligand.test
+
+
+timestep             1
+
+timestep             1
+
+print                .
+.
+print                ==========================================
+==========================================
+print                "500 steps CG Minimization"
+500 steps CG Minimization
+print                ==========================================
+==========================================
+print                .
+.
+
+dump                 1 all custom 25 ${sname}.min.lammps id type xu yu zu vx vy vz
+dump                 1 all custom 25 oleic_xligand.test.min.lammps id type xu yu zu vx vy vz
+thermo               10
+min_style            sd
+minimize             1.0e-4 1.0e-4 500 5000
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- neighbor multi command: doi:10.1016/j.cpc.2008.03.005, doi:10.1007/s40571-020-00361-2
+
+@Article{Intveld08,
+ author =  {in 't Veld, P. J. and S. J.~Plimpton and G. S. Grest},
+ title =   {Accurate and Efficient Methods for Modeling Colloidal
+            Mixtures in an Explicit Solvent using Molecular Dynamics},
+ journal = {Comput.\ Phys.\ Commut.},
+ year =    2008,
+ volume =  179,
+ pages =   {320--329}
+}
+
+@article{Shire2020,
+ author = {Shire, Tom and Hanley, Kevin J. and Stratford, Kevin},
+ title = {{DEM} Simulations of Polydisperse Media: Efficient Contact
+          Detection Applied to Investigate the Quasi-Static Limit},
+ journal = {Computational Particle Mechanics},
+ year = {2020}
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Switching to 'neigh_modify every 1 delay 0 check yes' setting during minimization
+PPPM initialization ...
+WARNING: System is not charge neutral, net charge = -0.0006 (src/kspace.cpp:327)
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:342)
+  G vector (1/distance) = 0.063991812
+  grid = 3 3 3
+  stencil order = 5
+  estimated absolute RMS force accuracy = 0.036397473
+  estimated relative force accuracy = 0.00010960991
+  using double precision FFTW3
+  3d grid and FFT values/proc = 512 27
+Generated 28 of 28 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 10 10 10
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/charmm/coul/long/opt, perpetual
+      attributes: half, newton on
+      pair build: half/multi/newton
+      stencil: half/multi/3d
+      bin: multi
+Per MPI rank memory allocation (min/avg/max) = 17.25 | 17.25 | 17.25 Mbytes
+------------ Step              0 ----- CPU =            0 (sec) -------------
+TotEng   =     198.969939 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     198.969939 E_bond   =      28.228952 E_angle  =      14.755458 
+E_dihed  =      16.230080 E_impro  =       0.012484 E_vdwl   =     148.696826 
+E_coul   =       2.396956 E_long   =     -11.350816 Press    =     164.127681
+------------ Step             10 ----- CPU =  0.002828889 (sec) -------------
+TotEng   =     134.241082 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     134.241082 E_bond   =       5.654114 E_angle  =      12.651650 
+E_dihed  =      17.783370 E_impro  =       0.068190 E_vdwl   =     106.726226 
+E_coul   =       2.708272 E_long   =     -11.350740 Press    =     114.540302
+------------ Step             20 ----- CPU =  0.005686823 (sec) -------------
+TotEng   =     127.775708 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     127.775708 E_bond   =       5.851578 E_angle  =      12.813784 
+E_dihed  =      18.656033 E_impro  =       0.077146 E_vdwl   =      98.961702 
+E_coul   =       2.766206 E_long   =     -11.350740 Press    =      97.514648
+------------ Step             30 ----- CPU =  0.008803523 (sec) -------------
+TotEng   =     123.535509 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     123.535509 E_bond   =       6.387875 E_angle  =      13.185128 
+E_dihed  =      19.455399 E_impro  =       0.082932 E_vdwl   =      93.058607 
+E_coul   =       2.716334 E_long   =     -11.350767 Press    =      81.162843
+------------ Step             40 ----- CPU =   0.01164348 (sec) -------------
+TotEng   =     117.982673 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     117.982673 E_bond   =       8.080483 E_angle  =      15.410005 
+E_dihed  =      20.780524 E_impro  =       0.087512 E_vdwl   =      82.357278 
+E_coul   =       2.617813 E_long   =     -11.350942 Press    =      47.021865
+------------ Step             50 ----- CPU =   0.01475304 (sec) -------------
+TotEng   =     117.505070 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     117.505070 E_bond   =       8.214416 E_angle  =      15.631452 
+E_dihed  =      20.818641 E_impro  =       0.086454 E_vdwl   =      81.486230 
+E_coul   =       2.618837 E_long   =     -11.350960 Press    =      43.973034
+------------ Step             60 ----- CPU =   0.01758713 (sec) -------------
+TotEng   =     117.273731 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     117.273731 E_bond   =       8.298293 E_angle  =      15.739636 
+E_dihed  =      20.838901 E_impro  =       0.086139 E_vdwl   =      81.042690 
+E_coul   =       2.619035 E_long   =     -11.350963 Press    =      42.351505
+------------ Step             70 ----- CPU =   0.02043047 (sec) -------------
+TotEng   =     117.038668 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     117.038668 E_bond   =       8.377562 E_angle  =      15.842668 
+E_dihed  =      20.858132 E_impro  =       0.085949 E_vdwl   =      80.626181 
+E_coul   =       2.599141 E_long   =     -11.350965 Press    =      40.820919
+------------ Step             80 ----- CPU =   0.02354156 (sec) -------------
+TotEng   =     116.833528 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.833528 E_bond   =       8.454484 E_angle  =      15.942701 
+E_dihed  =      20.876324 E_impro  =       0.085839 E_vdwl   =      80.225779 
+E_coul   =       2.599366 E_long   =     -11.350966 Press    =      39.348690
+------------ Step             90 ----- CPU =   0.02636987 (sec) -------------
+TotEng   =     116.635292 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.635292 E_bond   =       8.529774 E_angle  =      16.040819 
+E_dihed  =      20.893282 E_impro  =       0.085781 E_vdwl   =      79.836973 
+E_coul   =       2.599628 E_long   =     -11.350966 Press    =      37.913240
+------------ Step            100 ----- CPU =   0.02946394 (sec) -------------
+TotEng   =     116.443462 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.443462 E_bond   =       8.603349 E_angle  =      16.137058 
+E_dihed  =      20.908661 E_impro  =       0.085754 E_vdwl   =      79.459665 
+E_coul   =       2.599938 E_long   =     -11.350964 Press    =      36.513732
+------------ Step            110 ----- CPU =    0.0322941 (sec) -------------
+TotEng   =     116.259179 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.259179 E_bond   =       8.674563 E_angle  =      16.230708 
+E_dihed  =      20.922068 E_impro  =       0.085744 E_vdwl   =      79.096760 
+E_coul   =       2.600297 E_long   =     -11.350961 Press    =      35.160702
+------------ Step            120 ----- CPU =   0.03513944 (sec) -------------
+TotEng   =     116.084379 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.084379 E_bond   =       8.742526 E_angle  =      16.320680 
+E_dihed  =      20.933183 E_impro  =       0.085740 E_vdwl   =      78.752497 
+E_coul   =       2.600709 E_long   =     -11.350957 Press    =      33.870155
+------------ Step            124 ----- CPU =   0.04408921 (sec) -------------
+TotEng   =     116.034083 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.034083 E_bond   =       8.761245 E_angle  =      16.374960 
+E_dihed  =      20.936097 E_impro  =       0.084878 E_vdwl   =      78.627282 
+E_coul   =       2.600567 E_long   =     -11.350945 Press    =      33.297538
+Loop time of 0.0441103 on 1 procs for 124 steps with 122 atoms
+
+97.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+      198.969939450019   116.034082780606   116.034082780606
+  Force two-norm initial, final = 411.95394 5.9888814
+  Force max component initial, final = 110.02927 1.5495471
+  Final line search alpha, max atom move = 2.4041155e-10 3.7252903e-10
+  Iterations, force evaluations = 124 302
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.017435   | 0.017435   | 0.017435   |   0.0 | 39.53
+Bond    | 0.0097482  | 0.0097482  | 0.0097482  |   0.0 | 22.10
+Kspace  | 0.013219   | 0.013219   | 0.013219   |   0.0 | 29.97
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.00026139 | 0.00026139 | 0.00026139 |   0.0 |  0.59
+Output  | 0.0013761  | 0.0013761  | 0.0013761  |   0.0 |  3.12
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.002071   |            |       |  4.69
+
+Nlocal:            122 ave         122 max         122 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            192 ave         192 max         192 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           2914 ave        2914 max        2914 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2914
+Ave neighs/atom = 23.885246
+Ave special neighs/atom = 5.7540984
+Neighbor list builds = 0
+Dangerous builds = 0
+min_style            cg
+minimize             1.0e-4 1.0e-4 500 5000
+Switching to 'neigh_modify every 1 delay 0 check yes' setting during minimization
+PPPM initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:342)
+  G vector (1/distance) = 0.063991812
+  grid = 3 3 3
+  stencil order = 5
+  estimated absolute RMS force accuracy = 0.036397473
+  estimated relative force accuracy = 0.00010960991
+  using double precision FFTW3
+  3d grid and FFT values/proc = 512 27
+Generated 28 of 28 mixed pair_coeff terms from geometric mixing rule
+Per MPI rank memory allocation (min/avg/max) = 17.25 | 17.25 | 17.25 Mbytes
+------------ Step            124 ----- CPU =            0 (sec) -------------
+TotEng   =     116.034083 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.034083 E_bond   =       8.761245 E_angle  =      16.374960 
+E_dihed  =      20.936097 E_impro  =       0.084878 E_vdwl   =      78.627282 
+E_coul   =       2.600567 E_long   =     -11.350945 Press    =      33.297538
+------------ Step            125 ----- CPU =  0.008443968 (sec) -------------
+TotEng   =     116.034083 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.034083 E_bond   =       8.761245 E_angle  =      16.374960 
+E_dihed  =      20.936097 E_impro  =       0.084878 E_vdwl   =      78.627282 
+E_coul   =       2.600567 E_long   =     -11.350945 Press    =      33.297538
+Loop time of 0.00846575 on 1 procs for 1 steps with 122 atoms
+
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+      116.034082780606   116.034082780606   116.034082780606
+  Force two-norm initial, final = 5.9888814 5.9888814
+  Force max component initial, final = 1.5495471 1.5495471
+  Final line search alpha, max atom move = 2.4041155e-10 3.7252903e-10
+  Iterations, force evaluations = 1 56
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0033231  | 0.0033231  | 0.0033231  |   0.0 | 39.25
+Bond    | 0.00207    | 0.00207    | 0.00207    |   0.0 | 24.45
+Kspace  | 0.0025366  | 0.0025366  | 0.0025366  |   0.0 | 29.96
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.7419e-05 | 4.7419e-05 | 4.7419e-05 |   0.0 |  0.56
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.0004886  |            |       |  5.77
+
+Nlocal:            122 ave         122 max         122 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            192 ave         192 max         192 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           2905 ave        2905 max        2905 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2905
+Ave neighs/atom = 23.811475
+Ave special neighs/atom = 5.7540984
+Neighbor list builds = 0
+Dangerous builds = 0
+#now                 minimize the entire system
+minimize             1.0e-4 1.0e-4 500 5000
+Switching to 'neigh_modify every 1 delay 0 check yes' setting during minimization
+PPPM initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:342)
+  G vector (1/distance) = 0.063991812
+  grid = 3 3 3
+  stencil order = 5
+  estimated absolute RMS force accuracy = 0.036397473
+  estimated relative force accuracy = 0.00010960991
+  using double precision FFTW3
+  3d grid and FFT values/proc = 512 27
+Generated 28 of 28 mixed pair_coeff terms from geometric mixing rule
+Per MPI rank memory allocation (min/avg/max) = 17.25 | 17.25 | 17.25 Mbytes
+------------ Step            125 ----- CPU =            0 (sec) -------------
+TotEng   =     116.034083 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.034083 E_bond   =       8.761245 E_angle  =      16.374960 
+E_dihed  =      20.936097 E_impro  =       0.084878 E_vdwl   =      78.627282 
+E_coul   =       2.600567 E_long   =     -11.350945 Press    =      33.297538
+------------ Step            126 ----- CPU =  0.008100584 (sec) -------------
+TotEng   =     116.034083 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   =     116.034083 E_bond   =       8.761245 E_angle  =      16.374960 
+E_dihed  =      20.936097 E_impro  =       0.084878 E_vdwl   =      78.627282 
+E_coul   =       2.600567 E_long   =     -11.350945 Press    =      33.297538
+Loop time of 0.00812173 on 1 procs for 1 steps with 122 atoms
+
+99.2% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+      116.034082780606   116.034082780606   116.034082780606
+  Force two-norm initial, final = 5.9888814 5.9888814
+  Force max component initial, final = 1.5495471 1.5495471
+  Final line search alpha, max atom move = 2.4041155e-10 3.7252903e-10
+  Iterations, force evaluations = 1 56
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0032735  | 0.0032735  | 0.0032735  |   0.0 | 40.31
+Bond    | 0.0018067  | 0.0018067  | 0.0018067  |   0.0 | 22.25
+Kspace  | 0.0024996  | 0.0024996  | 0.0024996  |   0.0 | 30.78
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.7703e-05 | 4.7703e-05 | 4.7703e-05 |   0.0 |  0.59
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.0004942  |            |       |  6.08
+
+Nlocal:            122 ave         122 max         122 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            192 ave         192 max         192 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           2905 ave        2905 max        2905 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2905
+Ave neighs/atom = 23.811475
+Ave special neighs/atom = 5.7540984
+Neighbor list builds = 0
+Dangerous builds = 0
+undump               1
+
+
+fix                  1 all gcmc 1 0 1 0 1234567 298 1 5 full_energy
+dump                 2 all custom 1 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
+dump                 2 all custom 1 oleic_xligand.test.simple_mc.lammpstrj id type xu yu zu vx vy vz
+run                  10000
+WARNING: No fixes with time integration, atoms won't move (src/verlet.cpp:60)
+PPPM initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:342)
+  G vector (1/distance) = 0.063991812
+  grid = 3 3 3
+  stencil order = 5
+  estimated absolute RMS force accuracy = 0.036397473
+  estimated relative force accuracy = 0.00010960991
+  using double precision FFTW3
+  3d grid and FFT values/proc = 512 27
+Generated 28 of 28 mixed pair_coeff terms from geometric mixing rule
+ERROR: Invalid atom type in fix gcmc command (src/MC/fix_gcmc.cpp:501)
+Last command: run                  10000
