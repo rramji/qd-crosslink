@@ -35,8 +35,10 @@ create_box     8 mybox &
 molecule       xlig xlig.lammps.txt
 molecule       oleic oleic.lammps.txt
 
-create_atoms   0 box mol xlig 42 units box
-create_atoms   0 box mol oleic 42 units box
+
+# originally used box instead of single, which takes no args and auto populates the box until full
+create_atoms   0 single 0  0  0   mol xlig 42 units box
+create_atoms   0 single 10 10 10  mol oleic 42 units box
 
 # coeffs
 # Masses
