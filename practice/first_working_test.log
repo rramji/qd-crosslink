@@ -32,23 +32,23 @@ create_box     8 mybox                bond/types 13                angle/types 5
 Created orthogonal box = (0 0 0) to (20 20 20)
   1 by 1 by 1 MPI processor grid
 
-molecule       xlig xlig.lammps.txt
+molecule       xlig xlig_corrected.txt
 Read molecule template xlig:
   1 molecules
   0 fragments
   68 atoms with max type 7
   70 bonds with max type 10
   128 angles with max type 4
-  188 dihedrals with max type 11
+  188 dihedrals with max type 6
   39 impropers with max type 1
-molecule       oleic oleic.lammps.txt
+molecule       oleic oleic_final.txt
 Read molecule template oleic:
   1 molecules
   0 fragments
   54 atoms with max type 6
-  53 bonds with max type 13
-  100 angles with max type 5
-  141 dihedrals with max type 9
+  53 bonds with max type 8
+  100 angles with max type 3
+  141 dihedrals with max type 7
   9 impropers with max type 1
 
 create_atoms   0 box mol xlig 42 units box
@@ -179,13 +179,13 @@ Neighbor list info ...
       bin: multi
 Per MPI rank memory allocation (min/avg/max) = 34.39 | 34.39 | 34.39 Mbytes
 ------------ Step              0 ----- CPU =            0 (sec) -------------
-TotEng   = 852843449170137984.000000 KinEng   =       0.000000 Temp     =       0.000000 
-PotEng   = 852843449170137984.000000 E_bond   =   38967.038185 E_angle  =   32325.274564 
-E_dihed  =     388.120283 E_impro  =     335.727723 E_vdwl   = 852843449170182656.000000 
-E_coul   =  -83066.314738 E_long   =  -33672.145176 Press    = 29239061829793210368.000000
-Loop time of 6.71e-07 on 1 procs for 0 steps with 976 atoms
+TotEng   = 852843449170180480.000000 KinEng   =       0.000000 Temp     =       0.000000 
+PotEng   = 852843449170180480.000000 E_bond   =   81487.069441 E_angle  =   32335.209041 
+E_dihed  =     211.721694 E_impro  =     335.727723 E_vdwl   = 852843449170182656.000000 
+E_coul   =  -83066.314738 E_long   =  -33672.145176 Press    = 29239061829793386496.000000
+Loop time of 5.01e-07 on 1 procs for 0 steps with 976 atoms
 
-149.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+199.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -197,7 +197,7 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 6.71e-07   |            |       |100.00
+Other   |            | 5.01e-07   |            |       |100.00
 
 Nlocal:            976 ave         976 max         976 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
