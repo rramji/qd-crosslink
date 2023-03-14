@@ -115,7 +115,7 @@ dihedral_coeff       11 0.50000 -1 2 # X S_3 C_R X
                      
 improper_coeff       1 13.33333 0 # C_R X X X 
 
-timestep             0.5
+timestep             1
                      
 print                .
 print                ==========================================
@@ -140,7 +140,7 @@ print                =====================================
 print                .
                      
 reset_timestep       0
-#fix                  shakeH all shake 0.0001 7 500 m 1.0079
+fix                  shakeH all shake 0.0001 20 500 m 1.0079
 velocity             all create 0.0 12345678 dist uniform
 thermo               100
 thermo_style         multi
