@@ -115,7 +115,7 @@ dihedral_coeff       11 0.50000 -1 2 # X S_3 C_R X
                      
 improper_coeff       1 13.33333 0 # C_R X X X 
 
-timestep             1
+timestep             0.5
                      
 print                .
 print                ==========================================
@@ -140,7 +140,7 @@ print                =====================================
 print                .
                      
 reset_timestep       0
-fix                  shakeH all shake 0.0001 7 500 m 1.0079
+#fix                  shakeH all shake 0.0001 20 500 m 1.0079
 velocity             all create 0.0 12345678 dist uniform
 thermo               100
 thermo_style         multi
@@ -148,4 +148,17 @@ dump                 1 all custom 1000 ${sname}.heat.lammpstrj id type xu yu zu 
 fix                  4 all nvt temp 1.0 300.0 100.0
 run                  10000
 unfix                4
+undump               1
+
+print                .
+print                ================================================
+print                "NPT dynamics with an isotropic pressure of 1atm."
+print                ================================================
+print                .
+                     
+fix                  2 all nvt temp ${rtemp} ${rtemp} 100.0
+thermo               100
+dump                 1 all custom 100 ${sname}.npt.lammpstrj id type xu yu zu vx vy vz
+run                  500000 # run for 15 ns
+unfix                2
 undump               1
