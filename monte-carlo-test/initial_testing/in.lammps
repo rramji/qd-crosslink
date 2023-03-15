@@ -1,0 +1,108 @@
+units                real
+atom_style           full
+boundary             p p p
+dielectric           1
+special_bonds        lj/coul 0.0 0.0 1.0
+                     
+pair_style           lj/charmm/coul/long/opt 9 10.00000
+bond_style           harmonic
+angle_style          harmonic
+dihedral_style       harmonic
+improper_style       umbrella
+kspace_style         pppm 0.0001
+                     
+read_data            data.lammps
+                     
+                     
+pair_coeff           1 1 0.09510000 3.47299041 # C_3 C_3
+pair_coeff           2 2 0.07740000 3.26256026 # N_3 N_3
+pair_coeff           3 3 0.09510000 3.47299041 # C_R C_R
+pair_coeff           4 4 0.09570000 3.03315369 # O_2 O_2
+pair_coeff           5 5 0.34400001 3.59032202 # S_3 S_3
+pair_coeff           6 6 0.01520000 2.84642134 # H_ H_
+pair_coeff           7 7 0 2.84642134 # H___A H___A
+pair_coeff           8 8 0.09570000 3.03315369 # O_R O_R
+                     
+                     
+pair_modify          mix geometric
+neighbor             2.0 multi
+neigh_modify         every 2 delay 4 check yes
+thermo_style         multi
+thermo_modify        line multi format float %14.6f flush yes
+                     
+bond_coeff           1 350 1.53000 # C_3 C_3
+bond_coeff           2 350 1.09000 # C_3 H_
+bond_coeff           3 350 1.46200 # N_3 C_3
+bond_coeff           4 350 1.39200 # N_3 C_R
+bond_coeff           5 525 1.39000 # C_R C_R
+bond_coeff           6 350 1.02000 # C_R H_
+bond_coeff           7 700 1.25000 # O_2 C_R
+bond_coeff           8 350 1.73000 # S_3 C_R
+bond_coeff           9 350 1.80000 # S_3 C_3
+bond_coeff           10 350 1.36000 # S_3 H___A
+bond_coeff           11 525 1.35000 # O_R C_R
+bond_coeff           12 350 0.98000 # O_R H___A
+bond_coeff           13 350 1.46000 # C_R C_3
+                     
+                     
+angle_coeff          1 50 109.47100 # X C_3 X
+angle_coeff          2 50 106.70000 # X N_3 X
+angle_coeff          3 50 120 # X C_R X
+angle_coeff          4 50 92.10000 # X S_3 X
+angle_coeff          5 50 120 # X O_R X
+                     
+                     
+dihedral_coeff       1 0.08333 -1 6 # C_R C_R C_3 X
+dihedral_coeff       2 0.08333 -1 6 # O_2 C_R C_3 X
+dihedral_coeff       3 0.08333 -1 6 # O_R C_R C_3 X
+dihedral_coeff       4 0.11111 1 3 # X C_3 C_3 X
+dihedral_coeff       5 0.16667 1 3 # X C_R C_3 X
+dihedral_coeff       6 3.12500 -1 2 # X C_R C_R X
+dihedral_coeff       7 0.16667 1 3 # X N_3 C_3 X
+dihedral_coeff       8 0.12500 -1 6 # X N_3 C_R C_R
+dihedral_coeff       9 6.25000 -1 2 # X O_R C_R X
+dihedral_coeff       10 0.33333 1 3 # X S_3 C_3 X
+dihedral_coeff       11 0.50000 -1 2 # X S_3 C_R X
+                     
+                     
+improper_coeff       1 13.33333 0 # C_R X X X
+                     
+variable             input string in.lammps
+variable             sname string lammps
+                     
+variable             scaleQ index 1
+                     
+timestep             1
+                     
+print                .
+print                ==========================================
+print                "500 steps CG Minimization"
+print                ==========================================
+print                .
+                     
+dump                 1 all custom 25 ${sname}.min.lammps id type xu yu zu vx vy vz
+thermo               10
+min_style            sd
+minimize             1.0e-4 1.0e-4 500 5000
+min_style            cg
+minimize             1.0e-4 1.0e-4 500 5000
+#now                 minimize the entire system
+minimize             1.0e-4 1.0e-4 500 5000
+undump               1
+                     
+print                .
+print                =====================================
+print                "NVT dynamics to heat system"
+print                =====================================
+print                .
+                     
+reset_timestep       0
+fix                  shakeH all shake 0.0001 20 500 m 1.0079
+velocity             all create 0.0 12345678 dist uniform
+thermo               100
+thermo_style         multi
+dump                 1 all custom 1000 ${sname}.heat.lammpstrj id type xu yu zu vx vy vz
+fix                  4 all nvt temp 1.0 300.0 100.0
+run                  10000
+unfix                4
+undump               1
