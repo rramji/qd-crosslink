@@ -1,9 +1,9 @@
-
 # define variables
 
 variable       spacing index 10.0
 variable       lbox index 20.0
 variable       sname string combined_mc 
+variable       rtemp index 300
 
 units           real
 atom_style      full
@@ -140,10 +140,9 @@ print                =====================================
 print                .
                      
 reset_timestep       0
-#fix                  shakeH all shake 0.0001 20 500 m 1.0079
+##fix                  shakeH all shake 0.0001 20 500 m 1.0079
 velocity             all create 0.0 12345678 dist uniform
 thermo               100
-thermo_style         multi
 dump                 1 all custom 1000 ${sname}.heat.lammpstrj id type xu yu zu vx vy vz
 fix                  4 all nvt temp 1.0 300.0 100.0
 run                  10000
