@@ -1,3 +1,9 @@
+# xligand
+          68 atoms
+          70 bonds
+         128 angles
+         188 dihedrals
+          39 impropers
 Coords
 
 1    11.5 1.0 -0.0
