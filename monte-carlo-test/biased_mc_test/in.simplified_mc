@@ -149,7 +149,7 @@ undump               1
 
 
 fix                  freeze oleic_acid setforce 0.0 0.0 0.0
-fix                  1 all gcmc 10 0 100 0 1234567 300.0 0 5 mol 69 full_energy mcmoves 0 1 1
+fix                  1 all gcmc 1 0 100 0 1234567 300.0 0 10 mol 69 full_energy mcmoves 0 1 1
 dump                 2 all custom 10 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
 run                  10000
 unfix                1
