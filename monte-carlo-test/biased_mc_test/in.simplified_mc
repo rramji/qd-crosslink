@@ -50,8 +50,8 @@ thermo_modify        line multi format float %14.6f flush yes
 
 
 # originally used box instead of single, which takes no args and auto populates the box until full
-create_atoms   0 single 0  0  0   mol 69 42 units box
-create_atoms   0 single 10 10 10  mol 420 42 units box
+create_atoms   0 single 10 10 10   mol 69 42 units box
+create_atoms   0 single 0 0 0  mol 420 42 units box
 
 
 group xligand molecule == 69
@@ -164,7 +164,7 @@ unfix                4
 undump               1
 
 
-#fix                  freeze oleic_acid setforce 0.0 0.0 0.0
+fix                  freeze oleic_acid setforce 0.0 0.0 0.0
 fix                  1 all gcmc 10 0 100 0 1234567 300.0 0 1 mol 69 full_energy mcmoves 0 1 1
 dump                 2 all custom 1 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
 run                  1000
