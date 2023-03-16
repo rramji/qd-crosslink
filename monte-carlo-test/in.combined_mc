@@ -5,6 +5,9 @@ variable       lbox index 20.0
 variable       sname string combined_mc 
 variable       rtemp index 300
 
+
+#package omp 4
+
 units           real
 atom_style      full
 boundary        p p p
@@ -162,8 +165,8 @@ run                  10000 # run for 15 ns
 unfix                2
 undump               1
 
-fix                  1 all gcmc 1 0 1 0 1234567 298 1 5 mol xlig full_energy
-dump                 2 all custom 1 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
+fix                  1 all gcmc 10 0 1000 0 1234567 298 1 1 mol xlig full_energy
+dump                 2 all custom 10 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
 run                  10000
 unfix                1
 undump               2
