@@ -12,15 +12,15 @@ units           real
 atom_style      full
 boundary        p p p
 #pair_style      lj/cut/coul/long  14
-pair_style      lj/charmm/coul/long/opt 13 14.00000
+pair_style      lj/charmm/coul/long/opt 9 10.00000
 #pair_modify     mix arithmetic tail yes
 #special_bonds   lj/coul 0.0 0.0 1.0
-kspace_style    ewald 0.0001
+#kspace_style    ewald 0.0001
 bond_style      harmonic
 angle_style     harmonic
 dihedral_style  harmonic
 improper_style  umbrella
-#kspace_style    pppm 0.0001
+kspace_style    pppm 0.0001
 
 # initialize a simple cumbic box for the initial structure
 
@@ -147,19 +147,15 @@ minimize             1.0e-4 1.0e-4 500 5000
 minimize             1.0e-4 1.0e-4 500 5000
 undump               1
 
+#fix                  freeze oleic_acid setforce 0.0 0.0 0.0
+#fix                  1 all gcmc 1 0 100 0 1234567 300.0 0 5 mol 69 full_energy mcmoves 0 1 1
+fix                  1 all mc/rotate 1.0
 
-thermo               10
-fix                  freeze oleic_acid setforce 0.0 0.0 0.0
-fix                  1 all gcmc 1 0 100 0 1234567 0 0 5 mol 69 full_energy mcmoves 0 1 1
-
-compute rotate all property/atom quatw quati quatj quatk
-fix 2 all ave/time 1 1 1 c_rotate[*] file rotate.txt mode vector
-
-thermo_style         custom step temp pe etotal c_2[*]
-thermo_modify        flush yes
+thermo_style         custom etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong v_rotate 
 
 dump                 2 all custom 10 ${sname}.simple_mc.lammpstrj id type xu yu zu vx vy vz
-run                  100000
+run                  10000
 unfix                1
+unfix                4
 unfix                freeze
 undump               2
