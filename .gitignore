@@ -1,0 +1,4 @@
+*.lammpstrj
+*.lammpsdump
+*.lammps
+*.log
