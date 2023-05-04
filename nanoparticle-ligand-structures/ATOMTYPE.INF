@@ -1,0 +1,759 @@
+====================================================================================
+-------------------------------ring property (I)------------------------------------
+
+====================================================================================
+-------------------------------ring property (II)------------------------------------
+
+====================================================================================
+-------------------------------ring property (III)-----------------------------------
+atom[ 1] (Zn  ) is not in any ring (nr[1]=1)
+atom[ 2] (Zn1 ) is not in any ring (nr[2]=1)
+atom[ 3] (Zn2 ) is not in any ring (nr[3]=1)
+atom[ 4] (Zn3 ) is not in any ring (nr[4]=1)
+atom[ 5] (Zn4 ) is not in any ring (nr[5]=1)
+atom[ 6] (Zn5 ) is not in any ring (nr[6]=1)
+atom[ 7] (Zn6 ) is not in any ring (nr[7]=1)
+atom[ 8] (Zn7 ) is not in any ring (nr[8]=1)
+atom[ 9] (Zn8 ) is not in any ring (nr[9]=1)
+atom[10] (Zn9 ) is not in any ring (nr[10]=1)
+atom[11] (Zn10) is not in any ring (nr[11]=1)
+atom[12] (Zn11) is not in any ring (nr[12]=1)
+atom[13] (Zn12) is not in any ring (nr[13]=1)
+atom[14] (Zn13) is not in any ring (nr[14]=1)
+atom[15] (Zn14) is not in any ring (nr[15]=1)
+atom[16] (Zn15) is not in any ring (nr[16]=1)
+atom[17] (Zn16) is not in any ring (nr[17]=1)
+atom[18] (Zn17) is not in any ring (nr[18]=1)
+atom[19] (Zn18) is not in any ring (nr[19]=1)
+atom[20] (Zn19) is not in any ring (nr[20]=1)
+atom[21] (Zn20) is not in any ring (nr[21]=1)
+atom[22] (Zn21) is not in any ring (nr[22]=1)
+atom[23] (Zn22) is not in any ring (nr[23]=1)
+atom[24] (Zn23) is not in any ring (nr[24]=1)
+atom[25] (Zn24) is not in any ring (nr[25]=1)
+atom[26] (Zn25) is not in any ring (nr[26]=1)
+atom[27] (Zn26) is not in any ring (nr[27]=1)
+atom[28] (Zn27) is not in any ring (nr[28]=1)
+atom[29] (Zn28) is not in any ring (nr[29]=1)
+atom[30] (Zn29) is not in any ring (nr[30]=1)
+atom[31] (Zn30) is not in any ring (nr[31]=1)
+atom[32] (Zn31) is not in any ring (nr[32]=1)
+atom[33] (Zn32) is not in any ring (nr[33]=1)
+atom[34] (Zn33) is not in any ring (nr[34]=1)
+atom[35] (Zn34) is not in any ring (nr[35]=1)
+atom[36] (Zn35) is not in any ring (nr[36]=1)
+atom[37] (Zn36) is not in any ring (nr[37]=1)
+atom[38] (Zn37) is not in any ring (nr[38]=1)
+atom[39] (S   ) is not in any ring (nr[39]=1)
+atom[40] (S1  ) is not in any ring (nr[40]=1)
+atom[41] (S2  ) is not in any ring (nr[41]=1)
+atom[42] (S3  ) is not in any ring (nr[42]=1)
+atom[43] (S4  ) is not in any ring (nr[43]=1)
+atom[44] (S5  ) is not in any ring (nr[44]=1)
+atom[45] (S6  ) is not in any ring (nr[45]=1)
+atom[46] (S7  ) is not in any ring (nr[46]=1)
+atom[47] (S8  ) is not in any ring (nr[47]=1)
+atom[48] (S9  ) is not in any ring (nr[48]=1)
+atom[49] (S10 ) is not in any ring (nr[49]=1)
+atom[50] (S11 ) is not in any ring (nr[50]=1)
+atom[51] (S12 ) is not in any ring (nr[51]=1)
+atom[52] (S13 ) is not in any ring (nr[52]=1)
+atom[53] (S14 ) is not in any ring (nr[53]=1)
+atom[54] (S15 ) is not in any ring (nr[54]=1)
+atom[55] (S16 ) is not in any ring (nr[55]=1)
+atom[56] (S17 ) is not in any ring (nr[56]=1)
+atom[57] (S18 ) is not in any ring (nr[57]=1)
+atom[58] (S19 ) is not in any ring (nr[58]=1)
+atom[59] (S20 ) is not in any ring (nr[59]=1)
+atom[60] (S21 ) is not in any ring (nr[60]=1)
+atom[61] (S22 ) is not in any ring (nr[61]=1)
+atom[62] (S23 ) is not in any ring (nr[62]=1)
+atom[63] (S24 ) is not in any ring (nr[63]=1)
+atom[64] (S25 ) is not in any ring (nr[64]=1)
+atom[65] (S26 ) is not in any ring (nr[65]=1)
+atom[66] (S27 ) is not in any ring (nr[66]=1)
+atom[67] (S28 ) is not in any ring (nr[67]=1)
+atom[68] (S29 ) is not in any ring (nr[68]=1)
+atom[69] (S30 ) is not in any ring (nr[69]=1)
+atom[70] (S31 ) is not in any ring (nr[70]=1)
+atom[71] (S32 ) is not in any ring (nr[71]=1)
+atom[72] (S33 ) is not in any ring (nr[72]=1)
+atom[73] (S34 ) is not in any ring (nr[73]=1)
+atom[74] (S35 ) is not in any ring (nr[74]=1)
+atom[75] (S36 ) is not in any ring (nr[75]=1)
+atom[76] (S37 ) is not in any ring (nr[76]=1)
+atom[77] (S38 ) is not in any ring (nr[77]=1)
+atom[78] (S39 ) is not in any ring (nr[78]=1)
+atom[79] (S40 ) is not in any ring (nr[79]=1)
+atom[80] (S41 ) is not in any ring (nr[80]=1)
+atom[81] (S42 ) is not in any ring (nr[81]=1)
+atom[82] (S43 ) is not in any ring (nr[82]=1)
+atom[83] (S44 ) is not in any ring (nr[83]=1)
+atom[84] (S45 ) is not in any ring (nr[84]=1)
+atom[85] (S46 ) is not in any ring (nr[85]=1)
+atom[86] (S47 ) is not in any ring (nr[86]=1)
+atom[87] (S48 ) is not in any ring (nr[87]=1)
+atom[88] (S49 ) is not in any ring (nr[88]=1)
+atom[89] (S50 ) is not in any ring (nr[89]=1)
+atom[90] (S51 ) is not in any ring (nr[90]=1)
+atom[91] (S52 ) is not in any ring (nr[91]=1)
+atom[92] (S53 ) is not in any ring (nr[92]=1)
+atom[93] (S54 ) is not in any ring (nr[93]=1)
+atom[94] (S55 ) is not in any ring (nr[94]=1)
+atom[95] (S56 ) is not in any ring (nr[95]=1)
+atom[96] (S57 ) is not in any ring (nr[96]=1)
+atom[97] (S58 ) is not in any ring (nr[97]=1)
+atom[98] (S59 ) is not in any ring (nr[98]=1)
+atom[99] (S60 ) is not in any ring (nr[99]=1)
+atom[100] (S61 ) is not in any ring (nr[100]=1)
+atom[101] (S62 ) is not in any ring (nr[101]=1)
+atom[102] (S63 ) is not in any ring (nr[102]=1)
+atom[103] (S64 ) is not in any ring (nr[103]=1)
+atom[104] (S65 ) is not in any ring (nr[104]=1)
+atom[105] (S66 ) is not in any ring (nr[105]=1)
+atom[106] (S67 ) is not in any ring (nr[106]=1)
+atom[107] (S68 ) is not in any ring (nr[107]=1)
+atom[108] (S69 ) is not in any ring (nr[108]=1)
+atom[109] (S70 ) is not in any ring (nr[109]=1)
+atom[110] (S71 ) is not in any ring (nr[110]=1)
+atom[111] (C   ) is not in any ring (nr[111]=1)
+atom[112] (C1  ) is not in any ring (nr[112]=1)
+atom[113] (C2  ) is not in any ring (nr[113]=1)
+atom[114] (C3  ) is not in any ring (nr[114]=1)
+atom[115] (C4  ) is not in any ring (nr[115]=1)
+atom[116] (C5  ) is not in any ring (nr[116]=1)
+atom[117] (C6  ) is not in any ring (nr[117]=1)
+atom[118] (C7  ) is not in any ring (nr[118]=1)
+atom[119] (C8  ) is not in any ring (nr[119]=1)
+atom[120] (C9  ) is not in any ring (nr[120]=1)
+atom[121] (C10 ) is not in any ring (nr[121]=1)
+atom[122] (C11 ) is not in any ring (nr[122]=1)
+atom[123] (C12 ) is not in any ring (nr[123]=1)
+atom[124] (C13 ) is not in any ring (nr[124]=1)
+atom[125] (C14 ) is not in any ring (nr[125]=1)
+atom[126] (C15 ) is not in any ring (nr[126]=1)
+atom[127] (C16 ) is not in any ring (nr[127]=1)
+atom[128] (C17 ) is not in any ring (nr[128]=1)
+atom[129] (O   ) is not in any ring (nr[129]=1)
+atom[130] (O1  ) is not in any ring (nr[130]=1)
+atom[131] (H   ) is not in any ring (nr[131]=1)
+atom[132] (H1  ) is not in any ring (nr[132]=1)
+atom[133] (H2  ) is not in any ring (nr[133]=1)
+atom[134] (H3  ) is not in any ring (nr[134]=1)
+atom[135] (H4  ) is not in any ring (nr[135]=1)
+atom[136] (H5  ) is not in any ring (nr[136]=1)
+atom[137] (H6  ) is not in any ring (nr[137]=1)
+atom[138] (H7  ) is not in any ring (nr[138]=1)
+atom[139] (H8  ) is not in any ring (nr[139]=1)
+atom[140] (H9  ) is not in any ring (nr[140]=1)
+atom[141] (H10 ) is not in any ring (nr[141]=1)
+atom[142] (H11 ) is not in any ring (nr[142]=1)
+atom[143] (H12 ) is not in any ring (nr[143]=1)
+atom[144] (H13 ) is not in any ring (nr[144]=1)
+atom[145] (H14 ) is not in any ring (nr[145]=1)
+atom[146] (H15 ) is not in any ring (nr[146]=1)
+atom[147] (H16 ) is not in any ring (nr[147]=1)
+atom[148] (H17 ) is not in any ring (nr[148]=1)
+atom[149] (H18 ) is not in any ring (nr[149]=1)
+atom[150] (H19 ) is not in any ring (nr[150]=1)
+atom[151] (H20 ) is not in any ring (nr[151]=1)
+atom[152] (H21 ) is not in any ring (nr[152]=1)
+atom[153] (H22 ) is not in any ring (nr[153]=1)
+atom[154] (H23 ) is not in any ring (nr[154]=1)
+atom[155] (H24 ) is not in any ring (nr[155]=1)
+atom[156] (H25 ) is not in any ring (nr[156]=1)
+atom[157] (H26 ) is not in any ring (nr[157]=1)
+atom[158] (H27 ) is not in any ring (nr[158]=1)
+atom[159] (H28 ) is not in any ring (nr[159]=1)
+atom[160] (H29 ) is not in any ring (nr[160]=1)
+atom[161] (H30 ) is not in any ring (nr[161]=1)
+atom[162] (H31 ) is not in any ring (nr[162]=1)
+atom[163] (H32 ) is not in any ring (nr[163]=1)
+atom[164] (H33 ) is not in any ring (nr[164]=1)
+
+====================================================================================
+-------------------------------aromatic property------------------------------------
+
+====================================================================================
+-------------------------------electronic property----------------------------------
+atom [ 1] (Zn  ) is not an electron-withdrew atom
+atom [ 2] (Zn1 ) is not an electron-withdrew atom
+atom [ 3] (Zn2 ) is not an electron-withdrew atom
+atom [ 4] (Zn3 ) is not an electron-withdrew atom
+atom [ 5] (Zn4 ) is not an electron-withdrew atom
+atom [ 6] (Zn5 ) is not an electron-withdrew atom
+atom [ 7] (Zn6 ) is not an electron-withdrew atom
+atom [ 8] (Zn7 ) is not an electron-withdrew atom
+atom [ 9] (Zn8 ) is not an electron-withdrew atom
+atom [10] (Zn9 ) is not an electron-withdrew atom
+atom [11] (Zn10) is not an electron-withdrew atom
+atom [12] (Zn11) is not an electron-withdrew atom
+atom [13] (Zn12) is not an electron-withdrew atom
+atom [14] (Zn13) is not an electron-withdrew atom
+atom [15] (Zn14) is not an electron-withdrew atom
+atom [16] (Zn15) is not an electron-withdrew atom
+atom [17] (Zn16) is not an electron-withdrew atom
+atom [18] (Zn17) is not an electron-withdrew atom
+atom [19] (Zn18) is not an electron-withdrew atom
+atom [20] (Zn19) is not an electron-withdrew atom
+atom [21] (Zn20) is not an electron-withdrew atom
+atom [22] (Zn21) is not an electron-withdrew atom
+atom [23] (Zn22) is not an electron-withdrew atom
+atom [24] (Zn23) is not an electron-withdrew atom
+atom [25] (Zn24) is not an electron-withdrew atom
+atom [26] (Zn25) is not an electron-withdrew atom
+atom [27] (Zn26) is not an electron-withdrew atom
+atom [28] (Zn27) is not an electron-withdrew atom
+atom [29] (Zn28) is not an electron-withdrew atom
+atom [30] (Zn29) is not an electron-withdrew atom
+atom [31] (Zn30) is not an electron-withdrew atom
+atom [32] (Zn31) is not an electron-withdrew atom
+atom [33] (Zn32) is not an electron-withdrew atom
+atom [34] (Zn33) is not an electron-withdrew atom
+atom [35] (Zn34) is not an electron-withdrew atom
+atom [36] (Zn35) is not an electron-withdrew atom
+atom [37] (Zn36) is not an electron-withdrew atom
+atom [38] (Zn37) is not an electron-withdrew atom
+atom [39] (S   ) is an electron-withdrew atom
+atom [40] (S1  ) is an electron-withdrew atom
+atom [41] (S2  ) is an electron-withdrew atom
+atom [42] (S3  ) is an electron-withdrew atom
+atom [43] (S4  ) is an electron-withdrew atom
+atom [44] (S5  ) is an electron-withdrew atom
+atom [45] (S6  ) is an electron-withdrew atom
+atom [46] (S7  ) is an electron-withdrew atom
+atom [47] (S8  ) is an electron-withdrew atom
+atom [48] (S9  ) is an electron-withdrew atom
+atom [49] (S10 ) is an electron-withdrew atom
+atom [50] (S11 ) is an electron-withdrew atom
+atom [51] (S12 ) is an electron-withdrew atom
+atom [52] (S13 ) is an electron-withdrew atom
+atom [53] (S14 ) is an electron-withdrew atom
+atom [54] (S15 ) is an electron-withdrew atom
+atom [55] (S16 ) is an electron-withdrew atom
+atom [56] (S17 ) is an electron-withdrew atom
+atom [57] (S18 ) is an electron-withdrew atom
+atom [58] (S19 ) is an electron-withdrew atom
+atom [59] (S20 ) is an electron-withdrew atom
+atom [60] (S21 ) is an electron-withdrew atom
+atom [61] (S22 ) is an electron-withdrew atom
+atom [62] (S23 ) is an electron-withdrew atom
+atom [63] (S24 ) is an electron-withdrew atom
+atom [64] (S25 ) is an electron-withdrew atom
+atom [65] (S26 ) is an electron-withdrew atom
+atom [66] (S27 ) is an electron-withdrew atom
+atom [67] (S28 ) is an electron-withdrew atom
+atom [68] (S29 ) is an electron-withdrew atom
+atom [69] (S30 ) is an electron-withdrew atom
+atom [70] (S31 ) is an electron-withdrew atom
+atom [71] (S32 ) is an electron-withdrew atom
+atom [72] (S33 ) is an electron-withdrew atom
+atom [73] (S34 ) is an electron-withdrew atom
+atom [74] (S35 ) is an electron-withdrew atom
+atom [75] (S36 ) is an electron-withdrew atom
+atom [76] (S37 ) is an electron-withdrew atom
+atom [77] (S38 ) is an electron-withdrew atom
+atom [78] (S39 ) is an electron-withdrew atom
+atom [79] (S40 ) is an electron-withdrew atom
+atom [80] (S41 ) is an electron-withdrew atom
+atom [81] (S42 ) is an electron-withdrew atom
+atom [82] (S43 ) is an electron-withdrew atom
+atom [83] (S44 ) is an electron-withdrew atom
+atom [84] (S45 ) is an electron-withdrew atom
+atom [85] (S46 ) is an electron-withdrew atom
+atom [86] (S47 ) is an electron-withdrew atom
+atom [87] (S48 ) is an electron-withdrew atom
+atom [88] (S49 ) is an electron-withdrew atom
+atom [89] (S50 ) is an electron-withdrew atom
+atom [90] (S51 ) is an electron-withdrew atom
+atom [91] (S52 ) is an electron-withdrew atom
+atom [92] (S53 ) is an electron-withdrew atom
+atom [93] (S54 ) is an electron-withdrew atom
+atom [94] (S55 ) is an electron-withdrew atom
+atom [95] (S56 ) is an electron-withdrew atom
+atom [96] (S57 ) is an electron-withdrew atom
+atom [97] (S58 ) is an electron-withdrew atom
+atom [98] (S59 ) is an electron-withdrew atom
+atom [99] (S60 ) is an electron-withdrew atom
+atom [100] (S61 ) is an electron-withdrew atom
+atom [101] (S62 ) is an electron-withdrew atom
+atom [102] (S63 ) is an electron-withdrew atom
+atom [103] (S64 ) is an electron-withdrew atom
+atom [104] (S65 ) is an electron-withdrew atom
+atom [105] (S66 ) is an electron-withdrew atom
+atom [106] (S67 ) is an electron-withdrew atom
+atom [107] (S68 ) is an electron-withdrew atom
+atom [108] (S69 ) is an electron-withdrew atom
+atom [109] (S70 ) is an electron-withdrew atom
+atom [110] (S71 ) is an electron-withdrew atom
+atom [111] (C   ) is not an electron-withdrew atom
+atom [112] (C1  ) is not an electron-withdrew atom
+atom [113] (C2  ) is not an electron-withdrew atom
+atom [114] (C3  ) is not an electron-withdrew atom
+atom [115] (C4  ) is not an electron-withdrew atom
+atom [116] (C5  ) is not an electron-withdrew atom
+atom [117] (C6  ) is not an electron-withdrew atom
+atom [118] (C7  ) is not an electron-withdrew atom
+atom [119] (C8  ) is not an electron-withdrew atom
+atom [120] (C9  ) is not an electron-withdrew atom
+atom [121] (C10 ) is not an electron-withdrew atom
+atom [122] (C11 ) is not an electron-withdrew atom
+atom [123] (C12 ) is not an electron-withdrew atom
+atom [124] (C13 ) is not an electron-withdrew atom
+atom [125] (C14 ) is not an electron-withdrew atom
+atom [126] (C15 ) is not an electron-withdrew atom
+atom [127] (C16 ) is not an electron-withdrew atom
+atom [128] (C17 ) is not an electron-withdrew atom
+atom [129] (O   ) is an electron-withdrew atom
+atom [130] (O1  ) is an electron-withdrew atom
+atom [131] (H   ) is not an electron-withdrew atom
+atom [132] (H1  ) is not an electron-withdrew atom
+atom [133] (H2  ) is not an electron-withdrew atom
+atom [134] (H3  ) is not an electron-withdrew atom
+atom [135] (H4  ) is not an electron-withdrew atom
+atom [136] (H5  ) is not an electron-withdrew atom
+atom [137] (H6  ) is not an electron-withdrew atom
+atom [138] (H7  ) is not an electron-withdrew atom
+atom [139] (H8  ) is not an electron-withdrew atom
+atom [140] (H9  ) is not an electron-withdrew atom
+atom [141] (H10 ) is not an electron-withdrew atom
+atom [142] (H11 ) is not an electron-withdrew atom
+atom [143] (H12 ) is not an electron-withdrew atom
+atom [144] (H13 ) is not an electron-withdrew atom
+atom [145] (H14 ) is not an electron-withdrew atom
+atom [146] (H15 ) is not an electron-withdrew atom
+atom [147] (H16 ) is not an electron-withdrew atom
+atom [148] (H17 ) is not an electron-withdrew atom
+atom [149] (H18 ) is not an electron-withdrew atom
+atom [150] (H19 ) is not an electron-withdrew atom
+atom [151] (H20 ) is not an electron-withdrew atom
+atom [152] (H21 ) is not an electron-withdrew atom
+atom [153] (H22 ) is not an electron-withdrew atom
+atom [154] (H23 ) is not an electron-withdrew atom
+atom [155] (H24 ) is not an electron-withdrew atom
+atom [156] (H25 ) is not an electron-withdrew atom
+atom [157] (H26 ) is not an electron-withdrew atom
+atom [158] (H27 ) is not an electron-withdrew atom
+atom [159] (H28 ) is not an electron-withdrew atom
+atom [160] (H29 ) is not an electron-withdrew atom
+atom [161] (H30 ) is not an electron-withdrew atom
+atom [162] (H31 ) is not an electron-withdrew atom
+atom [163] (H32 ) is not an electron-withdrew atom
+atom [164] (H33 ) is not an electron-withdrew atom
+
+====================================================================================
+--------------------------------connectivity property-------------------------------
+atom[ 1] (Zn  )    55   S16
+atom[ 1] (Zn  )    58   S19
+atom[ 1] (Zn  )    56   S17
+atom[ 1] (Zn  )    57   S18
+atom[ 2] (Zn1 )    59   S20
+atom[ 2] (Zn1 )    39     S
+atom[ 2] (Zn1 )    60   S21
+atom[ 2] (Zn1 )    61   S22
+atom[ 3] (Zn2 )    62   S23
+atom[ 3] (Zn2 )    64   S25
+atom[ 3] (Zn2 )    44    S5
+atom[ 3] (Zn2 )    63   S24
+atom[ 4] (Zn3 )    68   S29
+atom[ 4] (Zn3 )    65   S26
+atom[ 4] (Zn3 )    66   S27
+atom[ 4] (Zn3 )    67   S28
+atom[ 5] (Zn4 )    71   S32
+atom[ 5] (Zn4 )    69   S30
+atom[ 5] (Zn4 )    49   S10
+atom[ 5] (Zn4 )    70   S31
+atom[ 6] (Zn5 )    72   S33
+atom[ 6] (Zn5 )    75   S36
+atom[ 6] (Zn5 )    73   S34
+atom[ 6] (Zn5 )    74   S35
+atom[ 7] (Zn6 )    76   S37
+atom[ 7] (Zn6 )    79   S40
+atom[ 7] (Zn6 )    78   S39
+atom[ 7] (Zn6 )    77   S38
+atom[ 8] (Zn7 )    82   S43
+atom[ 8] (Zn7 )    54   S15
+atom[ 8] (Zn7 )    80   S41
+atom[ 8] (Zn7 )    81   S42
+atom[ 9] (Zn8 )    85   S46
+atom[ 9] (Zn8 )    83   S44
+atom[ 9] (Zn8 )    43    S4
+atom[ 9] (Zn8 )    84   S45
+atom[10] (Zn9 )    86   S47
+atom[10] (Zn9 )    40    S1
+atom[10] (Zn9 )    88   S49
+atom[10] (Zn9 )    87   S48
+atom[11] (Zn10)    91   S52
+atom[11] (Zn10)    89   S50
+atom[11] (Zn10)    50   S11
+atom[11] (Zn10)    90   S51
+atom[12] (Zn11)    53   S14
+atom[12] (Zn11)    94   S55
+atom[12] (Zn11)    93   S54
+atom[12] (Zn11)    92   S53
+atom[13] (Zn12)    95   S56
+atom[13] (Zn12)    97   S58
+atom[13] (Zn12)    47    S8
+atom[13] (Zn12)    96   S57
+atom[14] (Zn13)    41    S2
+atom[14] (Zn13)    98   S59
+atom[14] (Zn13)   100   S61
+atom[14] (Zn13)    99   S60
+atom[15] (Zn14)   101   S62
+atom[15] (Zn14)   103   S64
+atom[15] (Zn14)    46    S7
+atom[15] (Zn14)   102   S63
+atom[16] (Zn15)    52   S13
+atom[16] (Zn15)   106   S67
+atom[16] (Zn15)   104   S65
+atom[16] (Zn15)   105   S66
+atom[17] (Zn16)   107   S68
+atom[17] (Zn16)   108   S69
+atom[17] (Zn16)    45    S6
+atom[17] (Zn16)    48    S9
+atom[18] (Zn17)    51   S12
+atom[18] (Zn17)    42    S3
+atom[18] (Zn17)   109   S70
+atom[18] (Zn17)   110   S71
+atom[19] (Zn18)    56   S17
+atom[19] (Zn18)    43    S4
+atom[19] (Zn18)    86   S47
+atom[19] (Zn18)    39     S
+atom[20] (Zn19)    49   S10
+atom[20] (Zn19)    90   S51
+atom[20] (Zn19)    75   S36
+atom[20] (Zn19)    53   S14
+atom[21] (Zn20)    44    S5
+atom[21] (Zn20)    84   S45
+atom[21] (Zn20)    65   S26
+atom[21] (Zn20)    40    S1
+atom[22] (Zn21)    50   S11
+atom[22] (Zn21)    78   S39
+atom[22] (Zn21)    54   S15
+atom[22] (Zn21)    94   S55
+atom[23] (Zn22)    45    S6
+atom[23] (Zn22)    47    S8
+atom[23] (Zn22)    51   S12
+atom[23] (Zn22)    41    S2
+atom[24] (Zn23)    46    S7
+atom[24] (Zn23)    48    S9
+atom[24] (Zn23)    52   S13
+atom[24] (Zn23)    42    S3
+atom[25] (Zn24)    47    S8
+atom[25] (Zn24)    57   S18
+atom[25] (Zn24)    39     S
+atom[25] (Zn24)    98   S59
+atom[26] (Zn25)    44    S5
+atom[26] (Zn25)   102   S63
+atom[26] (Zn25)    68   S29
+atom[26] (Zn25)    52   S13
+atom[27] (Zn26)    48    S9
+atom[27] (Zn26)    43    S4
+atom[27] (Zn26)    51   S12
+atom[27] (Zn26)    40    S1
+atom[28] (Zn27)    49   S10
+atom[28] (Zn27)    96   S57
+atom[28] (Zn27)    72   S33
+atom[28] (Zn27)    41    S2
+atom[29] (Zn28)    46    S7
+atom[29] (Zn28)    77   S38
+atom[29] (Zn28)    54   S15
+atom[29] (Zn28)   106   S67
+atom[30] (Zn29)    45    S6
+atom[30] (Zn29)    50   S11
+atom[30] (Zn29)    53   S14
+atom[30] (Zn29)    42    S3
+atom[31] (Zn30)    58   S19
+atom[31] (Zn30)   107   S68
+atom[31] (Zn30)    47    S8
+atom[31] (Zn30)    43    S4
+atom[32] (Zn31)    51   S12
+atom[32] (Zn31)    39     S
+atom[32] (Zn31)    99   S60
+atom[32] (Zn31)    88   S49
+atom[33] (Zn32)    85   S46
+atom[33] (Zn32)   101   S62
+atom[33] (Zn32)    44    S5
+atom[33] (Zn32)    48    S9
+atom[34] (Zn33)    52   S13
+atom[34] (Zn33)    40    S1
+atom[34] (Zn33)   109   S70
+atom[34] (Zn33)    67   S28
+atom[35] (Zn34)    97   S58
+atom[35] (Zn34)    89   S50
+atom[35] (Zn34)    45    S6
+atom[35] (Zn34)    49   S10
+atom[36] (Zn35)    53   S14
+atom[36] (Zn35)    41    S2
+atom[36] (Zn35)   110   S71
+atom[36] (Zn35)    73   S34
+atom[37] (Zn36)    76   S37
+atom[37] (Zn36)   108   S69
+atom[37] (Zn36)    46    S7
+atom[37] (Zn36)    50   S11
+atom[38] (Zn37)    54   S15
+atom[38] (Zn37)    42    S3
+atom[38] (Zn37)   105   S66
+atom[38] (Zn37)    92   S53
+atom[39] (S   )     2   Zn1
+atom[39] (S   )    19  Zn18
+atom[39] (S   )    25  Zn24
+atom[39] (S   )    32  Zn31
+atom[40] (S1  )    10   Zn9
+atom[40] (S1  )    21  Zn20
+atom[40] (S1  )    27  Zn26
+atom[40] (S1  )    34  Zn33
+atom[41] (S2  )    14  Zn13
+atom[41] (S2  )    23  Zn22
+atom[41] (S2  )    28  Zn27
+atom[41] (S2  )    36  Zn35
+atom[42] (S3  )    18  Zn17
+atom[42] (S3  )    24  Zn23
+atom[42] (S3  )    30  Zn29
+atom[42] (S3  )    38  Zn37
+atom[43] (S4  )     9   Zn8
+atom[43] (S4  )    19  Zn18
+atom[43] (S4  )    27  Zn26
+atom[43] (S4  )    31  Zn30
+atom[44] (S5  )     3   Zn2
+atom[44] (S5  )    21  Zn20
+atom[44] (S5  )    26  Zn25
+atom[44] (S5  )    33  Zn32
+atom[45] (S6  )    17  Zn16
+atom[45] (S6  )    23  Zn22
+atom[45] (S6  )    30  Zn29
+atom[45] (S6  )    35  Zn34
+atom[46] (S7  )    15  Zn14
+atom[46] (S7  )    24  Zn23
+atom[46] (S7  )    29  Zn28
+atom[46] (S7  )    37  Zn36
+atom[47] (S8  )    13  Zn12
+atom[47] (S8  )    23  Zn22
+atom[47] (S8  )    25  Zn24
+atom[47] (S8  )    31  Zn30
+atom[48] (S9  )    17  Zn16
+atom[48] (S9  )    24  Zn23
+atom[48] (S9  )    27  Zn26
+atom[48] (S9  )    33  Zn32
+atom[49] (S10 )     5   Zn4
+atom[49] (S10 )    20  Zn19
+atom[49] (S10 )    28  Zn27
+atom[49] (S10 )    35  Zn34
+atom[50] (S11 )    11  Zn10
+atom[50] (S11 )    22  Zn21
+atom[50] (S11 )    30  Zn29
+atom[50] (S11 )    37  Zn36
+atom[51] (S12 )    18  Zn17
+atom[51] (S12 )    23  Zn22
+atom[51] (S12 )    27  Zn26
+atom[51] (S12 )    32  Zn31
+atom[52] (S13 )    16  Zn15
+atom[52] (S13 )    24  Zn23
+atom[52] (S13 )    26  Zn25
+atom[52] (S13 )    34  Zn33
+atom[53] (S14 )    12  Zn11
+atom[53] (S14 )    20  Zn19
+atom[53] (S14 )    30  Zn29
+atom[53] (S14 )    36  Zn35
+atom[54] (S15 )     8   Zn7
+atom[54] (S15 )    22  Zn21
+atom[54] (S15 )    29  Zn28
+atom[54] (S15 )    38  Zn37
+atom[55] (S16 )     1    Zn
+atom[56] (S17 )     1    Zn
+atom[56] (S17 )    19  Zn18
+atom[57] (S18 )     1    Zn
+atom[57] (S18 )    25  Zn24
+atom[58] (S19 )     1    Zn
+atom[58] (S19 )    31  Zn30
+atom[59] (S20 )     2   Zn1
+atom[60] (S21 )     2   Zn1
+atom[61] (S22 )     2   Zn1
+atom[62] (S23 )     3   Zn2
+atom[63] (S24 )     3   Zn2
+atom[64] (S25 )     3   Zn2
+atom[65] (S26 )     4   Zn3
+atom[65] (S26 )    21  Zn20
+atom[66] (S27 )     4   Zn3
+atom[67] (S28 )     4   Zn3
+atom[67] (S28 )    34  Zn33
+atom[68] (S29 )     4   Zn3
+atom[68] (S29 )    26  Zn25
+atom[69] (S30 )     5   Zn4
+atom[70] (S31 )     5   Zn4
+atom[71] (S32 )     5   Zn4
+atom[72] (S33 )     6   Zn5
+atom[72] (S33 )    28  Zn27
+atom[73] (S34 )     6   Zn5
+atom[73] (S34 )    36  Zn35
+atom[74] (S35 )     6   Zn5
+atom[75] (S36 )     6   Zn5
+atom[75] (S36 )    20  Zn19
+atom[76] (S37 )     7   Zn6
+atom[76] (S37 )    37  Zn36
+atom[77] (S38 )     7   Zn6
+atom[77] (S38 )    29  Zn28
+atom[78] (S39 )     7   Zn6
+atom[78] (S39 )    22  Zn21
+atom[79] (S40 )     7   Zn6
+atom[80] (S41 )     8   Zn7
+atom[81] (S42 )     8   Zn7
+atom[82] (S43 )     8   Zn7
+atom[83] (S44 )     9   Zn8
+atom[84] (S45 )     9   Zn8
+atom[84] (S45 )    21  Zn20
+atom[85] (S46 )     9   Zn8
+atom[85] (S46 )    33  Zn32
+atom[86] (S47 )    10   Zn9
+atom[86] (S47 )    19  Zn18
+atom[87] (S48 )    10   Zn9
+atom[88] (S49 )    10   Zn9
+atom[88] (S49 )    32  Zn31
+atom[89] (S50 )    11  Zn10
+atom[89] (S50 )    35  Zn34
+atom[90] (S51 )    11  Zn10
+atom[90] (S51 )    20  Zn19
+atom[91] (S52 )    11  Zn10
+atom[92] (S53 )    12  Zn11
+atom[92] (S53 )    38  Zn37
+atom[93] (S54 )    12  Zn11
+atom[94] (S55 )    12  Zn11
+atom[94] (S55 )    22  Zn21
+atom[95] (S56 )    13  Zn12
+atom[96] (S57 )    13  Zn12
+atom[96] (S57 )    28  Zn27
+atom[97] (S58 )    13  Zn12
+atom[97] (S58 )    35  Zn34
+atom[98] (S59 )    14  Zn13
+atom[98] (S59 )    25  Zn24
+atom[99] (S60 )    14  Zn13
+atom[99] (S60 )    32  Zn31
+atom[100] (S61 )    14  Zn13
+atom[101] (S62 )    15  Zn14
+atom[101] (S62 )    33  Zn32
+atom[102] (S63 )    15  Zn14
+atom[102] (S63 )    26  Zn25
+atom[103] (S64 )    15  Zn14
+atom[104] (S65 )    16  Zn15
+atom[105] (S66 )    16  Zn15
+atom[105] (S66 )    38  Zn37
+atom[105] (S66 )   129     O
+atom[106] (S67 )    16  Zn15
+atom[106] (S67 )    29  Zn28
+atom[107] (S68 )    17  Zn16
+atom[107] (S68 )    31  Zn30
+atom[108] (S69 )    17  Zn16
+atom[108] (S69 )    37  Zn36
+atom[109] (S70 )    18  Zn17
+atom[109] (S70 )    34  Zn33
+atom[110] (S71 )    18  Zn17
+atom[110] (S71 )    36  Zn35
+atom[111] (C   )   112    C1
+atom[111] (C   )   131     H
+atom[111] (C   )   133    H2
+atom[111] (C   )   132    H1
+atom[112] (C1  )   111     C
+atom[112] (C1  )   113    C2
+atom[112] (C1  )   135    H4
+atom[112] (C1  )   134    H3
+atom[113] (C2  )   112    C1
+atom[113] (C2  )   114    C3
+atom[113] (C2  )   136    H5
+atom[113] (C2  )   137    H6
+atom[114] (C3  )   113    C2
+atom[114] (C3  )   115    C4
+atom[114] (C3  )   139    H8
+atom[114] (C3  )   138    H7
+atom[115] (C4  )   114    C3
+atom[115] (C4  )   140    H9
+atom[115] (C4  )   141   H10
+atom[115] (C4  )   116    C5
+atom[116] (C5  )   115    C4
+atom[116] (C5  )   117    C6
+atom[116] (C5  )   143   H12
+atom[116] (C5  )   142   H11
+atom[117] (C6  )   116    C5
+atom[117] (C6  )   144   H13
+atom[117] (C6  )   118    C7
+atom[117] (C6  )   145   H14
+atom[118] (C7  )   117    C6
+atom[118] (C7  )   119    C8
+atom[118] (C7  )   147   H16
+atom[118] (C7  )   146   H15
+atom[119] (C8  )   118    C7
+atom[119] (C8  )   120    C9
+atom[119] (C8  )   148   H17
+atom[120] (C9  )   119    C8
+atom[120] (C9  )   149   H18
+atom[120] (C9  )   121   C10
+atom[121] (C10 )   120    C9
+atom[121] (C10 )   122   C11
+atom[121] (C10 )   151   H20
+atom[121] (C10 )   150   H19
+atom[122] (C11 )   121   C10
+atom[122] (C11 )   152   H21
+atom[122] (C11 )   153   H22
+atom[122] (C11 )   123   C12
+atom[123] (C12 )   122   C11
+atom[123] (C12 )   124   C13
+atom[123] (C12 )   154   H23
+atom[123] (C12 )   155   H24
+atom[124] (C13 )   123   C12
+atom[124] (C13 )   156   H25
+atom[124] (C13 )   125   C14
+atom[124] (C13 )   157   H26
+atom[125] (C14 )   124   C13
+atom[125] (C14 )   126   C15
+atom[125] (C14 )   158   H27
+atom[125] (C14 )   159   H28
+atom[126] (C15 )   125   C14
+atom[126] (C15 )   160   H29
+atom[126] (C15 )   127   C16
+atom[126] (C15 )   161   H30
+atom[127] (C16 )   126   C15
+atom[127] (C16 )   128   C17
+atom[127] (C16 )   163   H32
+atom[127] (C16 )   162   H31
+atom[128] (C17 )   127   C16
+atom[128] (C17 )   129     O
+atom[128] (C17 )   130    O1
+atom[129] (O   )   105   S66
+atom[129] (O   )   128   C17
+atom[130] (O1  )   128   C17
+atom[130] (O1  )   164   H33
+atom[131] (H   )   111     C
+atom[132] (H1  )   111     C
+atom[133] (H2  )   111     C
+atom[134] (H3  )   112    C1
+atom[135] (H4  )   112    C1
+atom[136] (H5  )   113    C2
+atom[137] (H6  )   113    C2
+atom[138] (H7  )   114    C3
+atom[139] (H8  )   114    C3
+atom[140] (H9  )   115    C4
+atom[141] (H10 )   115    C4
+atom[142] (H11 )   116    C5
+atom[143] (H12 )   116    C5
+atom[144] (H13 )   117    C6
+atom[145] (H14 )   117    C6
+atom[146] (H15 )   118    C7
+atom[147] (H16 )   118    C7
+atom[148] (H17 )   119    C8
+atom[149] (H18 )   120    C9
+atom[150] (H19 )   121   C10
+atom[151] (H20 )   121   C10
+atom[152] (H21 )   122   C11
+atom[153] (H22 )   122   C11
+atom[154] (H23 )   123   C12
+atom[155] (H24 )   123   C12
+atom[156] (H25 )   124   C13
+atom[157] (H26 )   124   C13
+atom[158] (H27 )   125   C14
+atom[159] (H28 )   125   C14
+atom[160] (H29 )   126   C15
+atom[161] (H30 )   126   C15
+atom[162] (H31 )   127   C16
+atom[163] (H32 )   127   C16
+atom[164] (H33 )   130    O1
+----------------------------------------END-----------------------------------------
+
