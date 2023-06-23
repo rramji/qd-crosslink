@@ -1,0 +1,30 @@
+units                real
+atom_style           full
+boundary             p p p
+dielectric           1
+special_bonds        lj/coul 0.0 0.0 1.0
+                     
+pair_style           lj/charmm/coul/long/opt 9 10.00000
+bond_style           none
+angle_style          none
+dihedral_style       none
+improper_style       none
+kspace_style         pppm 0.0001
+                     
+read_data            data.slab_test
+                     
+                     
+                     
+pair_modify          mix geometric
+neighbor             2.0 multi
+neigh_modify         every 2 delay 4 check yes
+thermo_style         multi
+thermo_modify        line multi format float %14.6f flush yes
+variable             input string in.slab_test
+variable             sname string slab_test
+                     
+                     
+timestep             1
+                     
+                     
+run                  0
