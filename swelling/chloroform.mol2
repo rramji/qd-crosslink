@@ -1,0 +1,22 @@
+@<TRIPOS>MOLECULE
+chloroform
+5 4 1 0 0 
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+  1 C        4.0981    -0.2068     7.9514 C.3   1 <1>   0.3246 
+  2 CL1      5.8752    -0.2068     7.9513 Cl    1 <1>  -0.0812 
+  3 CL2      3.5058     0.9778     9.1361 Cl    1 <1>  -0.0812 
+  4 CL3      3.5059    -1.8252     8.3850 Cl    1 <1>  -0.0812 
+  5 CL4      3.5057     0.2268     6.3331 Cl    1 <1>  -0.0812 
+@<TRIPOS>BOND
+  1   1   2  1   
+  2   1   3  1   
+  3   1   4  1   
+  4   1   5  1   
+@<TRIPOS>SUBSTRUCTURE
+  1 ****   1 GROUP 4 **** **** 0
+
+# MOE 2020.09 (io_trps.svl 2020.11)
